@@ -101,6 +101,11 @@ gulp.task('browser-sync', function() {
   });
 });
 
+gulp.task('deploy', function() {
+  return gulp.src('./public/**/*')
+    .pipe($.ghPages());
+});
+
 gulp.task('watch', function () {
   gulp.watch('./source/scss/**/*.scss', ['sass']);
   gulp.watch('./source/**/*.jade', ['jade']);
