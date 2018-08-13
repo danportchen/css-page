@@ -1,0 +1,1 @@
+{"version":3,"sources":["_smallFn.js","all.js"],"names":["newFn2","newFn1"],"mappings":"aAAA,IAAIA,OAAS,aAIbA,SCJA,IAAIC,OAAS,aDEZA","file":"all.js","sourcesContent":["let newFn2 = () => {\n  console.log('a');\n}\n\nnewFn2();","let newFn1 = () => {\n  console.log('abcdf');\n}\n\nnewFn1();"]}
