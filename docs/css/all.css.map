@@ -1,1 +1,0 @@
-{"version":3,"sources":["all.scss"],"names":[],"mappings":"AAMA,KACE,iBAAA,QACA,MAAA,KACA,kBAAA,cAAA,cAAA,cAAA,UAAA","file":"all.css","sourcesContent":["\n\n\n$bodyColor: #5a9780;\n$fontColor: #ffffff;\n\nbody {\n  background-color: $bodyColor;\n  color: $fontColor;\n  transform: rotate(45deg);\n}"]}
